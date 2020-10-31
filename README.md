@@ -46,3 +46,10 @@ You can declare an array as public
 ```
 Person[] public people;
 ```
+
+# Chapter 7 - Function Declaration
+
+```
+function eatHamburgers(string memory _name, uint _amount) public {
+}
+```
