@@ -53,3 +53,9 @@ Person[] public people;
 function eatHamburgers(string memory _name, uint _amount) public {
 }
 ```
+
+# Chapter 8 - Working with Structs and Arrays
+
+```
+zombies.push(Zombie(_name, _dna));
+```
