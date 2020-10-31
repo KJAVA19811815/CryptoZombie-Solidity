@@ -76,3 +76,21 @@ function _createZombie (string memory _name, uint _dna) private {
         zombies.push(Zombie(_name,_dna));
     }
 ```
+
+# Chapter 10 - Function Modifiers
+
+```
+string greeting = "What's up dog";
+
+function sayHello() public returns (string memory) {
+  return greeting;
+}
+```
+
+The above function doesn't actually change state in Solidity — e.g. it doesn't change any values or write anything.
+
+So in this case we could declare it as a view function, meaning it's only viewing the data but not modifying it:
+
+```
+function sayHello() public view returns (string memory) {}
+```
