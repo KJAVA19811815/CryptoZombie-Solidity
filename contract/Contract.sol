@@ -1,7 +1,5 @@
 pragma solidity >0.5.2;
 
 contract ZombieFactory {
-
-    //start here
-
+    uint dnaDigits = 16;
 }
