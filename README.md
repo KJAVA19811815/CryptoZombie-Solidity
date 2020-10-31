@@ -21,3 +21,28 @@ struct Person {
   string name;
 }
 ```
+
+# Chapter 6 - Arrays
+
+When you want a collection of something, you can use an array. There are two types of arrays in Solidity: fixed arrays and dynamic arrays:
+
+```
+// Array with a fixed length of 2 elements:
+uint[2] fixedArray;
+// another fixed Array, can contain 5 strings:
+string[5] stringArray;
+// a dynamic Array - has no fixed size, can keep growing:
+uint[] dynamicArray;
+```
+
+You can also create an array of structs.
+
+```
+Person[] people;
+```
+
+You can declare an array as public
+
+```
+Person[] public people;
+```
