@@ -68,3 +68,11 @@ struct Zombie {
         zombies.push(Zombie(_name,_dna));
     }
 ```
+
+# Chapter 9 - Private Functions
+
+```
+function _createZombie (string memory _name, uint _dna) private {
+        zombies.push(Zombie(_name,_dna));
+    }
+```
